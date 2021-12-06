@@ -1,0 +1,111 @@
+:root {
+  --darkColor: #023047;
+  --light: #8ecae6;
+}
+
+.App {
+  text-align: center;
+}
+.head {
+  padding: 30;
+  background-color: var(--darkColor);
+  color: white;
+}
+.btn {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.inp {
+  border: 2px solid var(--light);
+  padding: 10;
+  font-size: 1em;
+  outline: none;
+}
+.inp:focus {
+  border: 2px solid var(--darkColor);
+}
+label.EmailLabel {
+  margin-bottom: 10px;
+  margin-top: 12px;
+  text-align: left;
+}
+.setEmail {
+  display: flex;
+  justify-content: center;
+  width: 84%;
+  flex-direction: column;
+  
+}
+.login3 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+.login {
+    /* width: 100%; */
+    height: 100vh;
+}
+.SignUp{
+  height: 100vh;
+}
+.SignUp2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: blue;
+  height: 100%;
+  align-content: space-around;  
+}
+.login2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: blue;
+  height: 100%;
+  align-content: space-around;
+}
+
+.formLogin {
+  flex-direction: column;
+  margin-top: 95px;
+  background-color: white;
+  border-radius: 18px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 34%;
+  height: 75%;
+}
+.formLogin2 {
+  /* display: flex; */
+  flex-direction: column;
+  margin-top: 55px;
+  background-color: white;
+  border-radius: 18px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 34%;
+  height: 83%;
+}
+input.enterEmail {
+  height: 40px;
+  outline: none;
+}
+button.LoginBtn {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  border: none;
+  height: 40px;
+  width: 100px;
+  margin: 22px;
+  cursor: pointer;
+}
+img.guestImg {
+  width: 84px;
+}
